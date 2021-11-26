@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Sarabun:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #125D98;
+    overflow: auto;
+    height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+.title{
+    float: left;
+    width: 50%;
+    line-height: 60px;
+    font-family:'Kaushan Script';
+}
+
+nav{
+    float: right;
+    width: 50%;
+    text-align: right;
+    
+}
+
+nav li{
+    display: inline;
+    text-decoration: none;
+    line-height: 60px;
+    margin-left: 20px;
+    font-size: 18px;
+    font-family:'Sarabun';
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    font-weight: bold;
+    color: #FCECDD;
+}
+
+.beranda{
+    background-color: #CDF0EA;
+    overflow: auto;
+    height: 400px
+}
+
+.beranda img{
+    float: left;
+    width: 50%;
+}
+
+.beranda div{
+    float: right;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.beranda-title h1{
+    font-size: 50px;
+    color: #125D98;
+    font-family:'Kaushan Script';
+    margin-top: 150px;
+    /* border: 2px solid black; */
+}
+
+.first-content{
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.first-content h2{
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.first-content p{
+    font-family: 'Nunito';
+    font-size: 18px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+}
+
+.first-img{
+    justify-content: center;
+    display: flex;
+}
+
+.img-detail{
+    margin: 20px;
+}
+
+.second-content{
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    overflow: auto;
+    background-color: #CDF0EA;
+}
+
+.second-detail{
+    float: left;
+    width: 60%;
+    font-family: 'Nunito';
+    font-size: 18px;
+    text-align: center;
+}
+
+.second-detail p{
+    padding: 50px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+
+.second-detail h3{
+    padding: 50px;
+    padding-bottom: 20px;
+    color: #125D98;
+    /* font-size: 20px; */
+}
+
+.second-content img{
+    float: right;
+    width: 40%;
+}
+
+.second-detail li{
+    font-size: 15px;
+    display: inline;
+    margin-right: 25px;
+    text-decoration: dotted;
+}
+
+.second-detail a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Nunito';
+    font-size: 15px;
+}
+
+.second-detail button{
+    background-color: #125D98;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 15px;
+}
+
+.second-detail button:hover{
+    background-color: #124369;
+}  
+
+.third-content{
+    text-align: center;
+    margin: 20px;
+    /* border: 2px solid black; */
+    padding: 10px;
+    overflow: auto;
+    font-family: 'Nunito';
+}
+
+.third-img{
+    justify-content: center;
+    display: flex;
+}
+
+.img-detail{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.third-img .img-detail h3{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 15px;
+    /* border: 2px solid black; */
+    background-color: #CDF0EA;
+    color: #125D98;
+}
+
+table{
+    width: 70%;
+}
+
+th, td{
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 50px;
+}
+
+.third-content h2{
+    margin-bottom: 10px;
+}
+
+.third-content p{
+    margin-bottom: 30px;
+}
+
+th{
+    background-color: #CDF0EA;
+    color: #125D98;
+}
+
+.first-table{
+    margin-bottom: 20px;
+}
+
+aside{
+    text-align: center;
+    margin: 20px;
+    /* border: 2px solid black; */
+    padding: 10px;
+    overflow: auto;
+    font-family: 'Nunito';
+    background-color: #CDF0EA;
+}
+
+.biodata{
+    width: 400px;
+}
+
+.biodata table{
+    margin-top: 80px;
+    width: 100%;
+}
+.profil{
+    display: flex;
+    justify-content: center;
+}
+
+.menu-responsive{
+    display: none;
+}
+
+
+@media screen and (max-width: 950px){
+    .beranda img{
+        float: left;
+        width: 50%;
+        margin-top: 150px;
+    }    
+}
+
+@media screen and (max-width: 500px){
+
+    .menu{
+        display: none;
+    }
+
+    .menu-responsive{
+        display: block;
+        
+    }
+    
+    nav{
+
+        width: 100%;
+        text-align: center;
+        
+    }
+
+    nav li{
+        display: inline;
+        text-decoration: none;
+        line-height: 60px;
+        margin-left: 20px;
+        font-size: 18px;
+        font-family:'Sarabun';
+    }
+    
+    nav a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    nav a:hover{
+        font-weight: bold;
+        color: #FCECDD;
+    }
+    
+}
